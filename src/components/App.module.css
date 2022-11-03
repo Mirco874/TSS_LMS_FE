@@ -1,0 +1,26 @@
+.Header{
+    display:flex;
+    background-color: orange;
+    width: 100%;
+    height: 10vh;
+}
+
+.test{
+    display:flex;
+    width: 100%;
+    height: 95vh;
+}
+
+.NavBar{
+    display:flex;
+    background-color: pink;
+    height: 100%;
+    width: 12vh;
+}
+
+.Content{
+    display:flex;
+    background-color: blue;
+    height: 100%;
+    width: 200vh;
+}
