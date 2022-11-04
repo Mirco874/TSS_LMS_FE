@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./App.module.css";
+import styles from "./Header.module.css";
 
-export const Class = () => {
+const Header = () => {
   return (
     <div className={styles.Header}>
       <svg
@@ -32,3 +32,5 @@ export const Class = () => {
     </div>
   );
 };
+
+export default Header;

@@ -1,12 +1,5 @@
-
-
-.User{
-    margin-left: auto; 
-}
-
-.Header {
+.child {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin: 1%;
     padding: 20px;
@@ -16,4 +9,4 @@
     background-color: #eab768;
     border-radius: 10px;
     border: 10px solid #f5cc8b;
-  }
+}
