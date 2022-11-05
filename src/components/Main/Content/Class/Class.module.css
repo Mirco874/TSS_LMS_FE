@@ -1,7 +1,7 @@
 .Class{
     display:flex;
     flex-direction: column;
-    background-color: rgb(250, 65, 204);
+    background-color: rgb(143, 135, 135);
     width: 60vh;
     height: 35vh;
     margin-left: 2%;
@@ -14,7 +14,7 @@
 }
 
 .ClassImage{
-    background-color: rgb(202, 183, 5);
+    background-color: rgb(184, 183, 181);
     width: 45vh;
     height: 25vh;
 }

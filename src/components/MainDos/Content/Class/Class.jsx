@@ -1,18 +1,16 @@
 import React from "react";
 import styles from "./Class.module.css";
+import { PDFReader } from "reactjs-pdf-reader";
 
 export const Class = () => {
   return (
     <div className={styles.Class}>
       <p>Clase 1-2023</p>
-      <div className={styles.ClassImage}>
-        <embed
-          src="./Docs/Cap1.pdf"
-          type="application/pdf"
-          width="420"
-          height="600"
-        />
-      </div>
+      <PDFReader
+        url={"https://arxiv.org/pdf/quant-ph/0410100.pdf"}
+        scale="1"
+        width="1000px"
+      />
     </div>
   );
 };
