@@ -20,27 +20,27 @@
 }
 .dropdown-toggle {
     background-color: transparent;
-    border-color: #fff;
     border-style: solid;
     border-top: none;
     border-right: none;
     border-left: none;
   }
   .dropdown-menu{
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
   }
   .dropdown-menu>li>a{
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   .dropdown {
-    width: 100%;
+    width: 75%;
     height: 75px;
   }
   .dropdown-trigger {
-    width: 100%;
+    width: 75%;
     height: 75px;  }
+    
   button {
-    width: 100%;
+    width: 75%;
     height: 60px;
     padding-top: 0px;
     line-height: 100px;

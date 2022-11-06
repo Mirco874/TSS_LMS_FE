@@ -12,7 +12,7 @@ const SideBar = () => {
   return (
     <div className={styles.child}>
       <ListGroup vertical>
-        <ListGroup.Item onClick={() => navigate("/")}>
+        <ListGroup.Item onClick={() => navigate("/clases")}>
           <svg
             width="36"
             height="36"
@@ -47,19 +47,9 @@ const SideBar = () => {
           </svg>
           Material
         </ListGroup.Item>
-        <ListGroup.Item>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
-            fill="currentColor"
-            class="bi bi-envelope"
-            viewBox="0 0 16 16"
-          >
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-          </svg>
-          Chat
-        </ListGroup.Item>
+         
+      
+
         <ListGroup.Item onClick={() => navigate("/capitulos")}>
           <svg
             width="36"
@@ -77,7 +67,7 @@ const SideBar = () => {
             <path d="M8.25 6V3.562A2.075 2.075 0 0 1 10.313 1.5h4.406a1.164 1.164 0 0 1 .825.345l5.117 5.203c.217.22.34.517.339.827v8.063C21 17.076 20.107 18 18.987 18h-2.862"></path>
             <path d="M14.625 1.5v5.063a1.328 1.328 0 0 0 1.313 1.312H21"></path>
           </svg>
-          Documentos
+          Capitulos
         </ListGroup.Item>
       </ListGroup>
     </div>
