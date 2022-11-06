@@ -13,6 +13,9 @@
     border-radius: 10px;
     border: 10px solid #111431;
 }
-.list-group-item{
-    background-color: #015A94;
+.list{
+    background-color: #2b327c ;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+    border-radius: 5px;
 }

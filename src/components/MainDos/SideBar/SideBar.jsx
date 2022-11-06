@@ -9,7 +9,7 @@ const SideBar = () => {
   return (
     <div className={styles.child}>
       <ListGroup vertical>
-        <ListGroup.Item className={styles.clases}>
+        <ListGroup.Item bsPrefix={styles.list}>
           <svg
             width="36"
             height="36"
@@ -44,7 +44,7 @@ const SideBar = () => {
           </svg>
           Material
   </ListGroup.Item> */}
-        <ListGroup.Item>
+        <ListGroup.Item bsPrefix={styles.list}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
