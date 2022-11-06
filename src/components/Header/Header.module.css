@@ -16,8 +16,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     line-height: 20px;
-    color: #000000;
-    background-color: #ffffff;
+    color: white;
+    background-color: #1c1f42;
     border-radius: 10px;
-    border: 10px solid #000000;
+    border: 10px solid #111431;
   }

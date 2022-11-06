@@ -8,8 +8,8 @@ export const Class = () => {
       <p>Clase 1-2023</p>
       <PDFReader
         url={"https://arxiv.org/pdf/quant-ph/0410100.pdf"}
-        scale="1"
-        width="1000px"
+        scale="0.9"
+        width="10vh"
       />
     </div>
   );

@@ -30,7 +30,7 @@ const SideBar = () => {
           </svg>
           Clases
         </ListGroup.Item>
-        <ListGroup.Item onClick={() => navigate("/material")}>
+        {/*<ListGroup.Item onClick={() => navigate("/material")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
@@ -43,7 +43,7 @@ const SideBar = () => {
             <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
           </svg>
           Material
-        </ListGroup.Item>
+  </ListGroup.Item>*/}
         <ListGroup.Item>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const SideBar = () => {
           </svg>
           Chat
         </ListGroup.Item>
-        <ListGroup.Item>
+        {/*<ListGroup.Item>
           <svg
             width="36"
             height="36"
@@ -75,7 +75,7 @@ const SideBar = () => {
             <path d="M14.625 1.5v5.063a1.328 1.328 0 0 0 1.313 1.312H21"></path>
           </svg>
           Documentos
-        </ListGroup.Item>
+</ListGroup.Item>*/}
       </ListGroup>
     </div>
   );

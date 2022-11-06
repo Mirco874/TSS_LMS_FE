@@ -1,10 +1,10 @@
 .Class{
     display:flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.788);
-    width: 100%;
+    background-color: #e2e2e2;
+    /*width: 100%;
     height: 100%;
-    margin-left: 2%;
+    margin-left: 2%;*/
     justify-content: center;
     align-items: center;
 }
