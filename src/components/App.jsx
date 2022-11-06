@@ -1,7 +1,13 @@
-import React from "react";
-import Main from "./Main/Main";
-import MainDos from "./MainDos/Main";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from 'react';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
+
+import Chapter from './Chapter/Main';
+import Main from './Main/Main';
+import MainDos from './MainDos/Main';
 
 export const App = () => {
   const router = createBrowserRouter([
@@ -13,6 +19,10 @@ export const App = () => {
       path: "/material",
       element: <MainDos />,
     },
-  ]);
+    {
+      path: "/capitulos",
+      element: <Chapter />,
+    },
+     ]);
   return <RouterProvider router={router} />;
 };

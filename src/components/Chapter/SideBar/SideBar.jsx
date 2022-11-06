@@ -1,18 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import React from 'react';
-
-import ListGroup from 'react-bootstrap/ListGroup';
-import { useNavigate } from 'react-router-dom';
-
-import styles from './SideBar.module.css';
+import React from "react";
+import styles from "./SideBar.module.css";
+import ListGroup from "react-bootstrap/ListGroup";
+import { useNavigate } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const SideBar = () => {
   const navigate = useNavigate();
   return (
     <div className={styles.child}>
       <ListGroup vertical>
-        <ListGroup.Item onClick={() => navigate("/clases")}>
+        <ListGroup.Item>
           <svg
             width="36"
             height="36"
@@ -47,7 +44,7 @@ const SideBar = () => {
           </svg>
           Material
         </ListGroup.Item>
-        <ListGroup.Item onClick={() => navigate("/chat")} >
+        <ListGroup.Item>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
@@ -60,7 +57,7 @@ const SideBar = () => {
           </svg>
           Chat
         </ListGroup.Item>
-        <ListGroup.Item onClick={() => navigate("/documentos")}>
+        <ListGroup.Item>
           <svg
             width="36"
             height="36"
